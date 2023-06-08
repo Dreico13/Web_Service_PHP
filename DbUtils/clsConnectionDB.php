@@ -1,7 +1,8 @@
 <?php
 
 include('config.php');
-include_once("/opt/lampp/htdocs/COM/Interfaces/ConnectionDbInterface.php");
+//Ruta dentro de docker
+include_once("/opt/lampp/htdocs/WEB_SERVICE_PHP/Interfaces/ConnectionDbInterface.php");
 
 class clsConnectionDB implements ConnectionDbInterface {
     private $SERVERHOST = SERVERHOST;

@@ -1,6 +1,6 @@
 <?php
-
-include("/opt/lampp/htdocs/COM/Interfaces/ControllerDataBaseInterface.php"); 
+//Ruta dentro de docker
+include("/opt/lampp/htdocs/WEB_SERVICE_PHP/Interfaces/ControllerDataBaseInterface.php"); 
 include_once __DIR__."/clsConnectionDB.php";
 
 

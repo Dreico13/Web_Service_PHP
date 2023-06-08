@@ -1,6 +1,6 @@
 <?php
-
-include_once("/opt/lampp/htdocs/COM/DbUtils/clsControllerDB.php");
+//Ruta dentro de docker
+include_once("/opt/lampp/htdocs/WEB_SERVICE_PHP/DbUtils/clsControllerDB.php");
 
 class clsConn {
 
